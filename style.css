@@ -7,12 +7,32 @@
 .quadrados {
     width: 100vw;
     height: 200px;
-    background-color: blue;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.quadrados div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
 }
 
 .redondos {
     width: 100vw;
     height: 200px;
-    background-color: red;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redondos div {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+
 }
